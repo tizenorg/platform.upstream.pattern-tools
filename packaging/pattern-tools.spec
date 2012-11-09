@@ -10,7 +10,7 @@ Requires:  libxslt
 Requires: python-yaml
 Requires: python-lxml
 
-%description tools
+%description
 Tools for managing package groups and patterns.
 
 
@@ -27,6 +27,6 @@ make
 %make_install
 
 
-%files tools
+%files 
 %{_bindir}/merge-patterns
 %{_datadir}/package-groups/stylesheets/*.xsl
