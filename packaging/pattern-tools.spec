@@ -13,10 +13,6 @@ Requires: python-lxml
 %description
 Tools for managing package groups and patterns.
 
-
-%description
-Pattern Tools
-
 %prep
 %setup -q
 
